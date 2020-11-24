@@ -1,0 +1,46 @@
+/* Sydney header style 2x */
+
+.site-header {
+  display: none;
+}
+
+.site-header.sydney-header-2 {
+  display: block;
+}
+
+.site-header.sydney-header-2 #mainnav,
+.site-header.sydney-header-2 #mainnav2 {
+  opacity: 0;
+  height: 0;
+}
+
+.btn-menu2 {
+  float: right;
+  color: #fff;
+  text-align:center;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.btn-menu2 .sydney-svg-icon {
+	width: 22px;
+	fill: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .btn-menu2 {
+    float: none;
+    margin: 15px auto 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .site-header.sydney-header-2 #mainnav-mobi {
+    max-width: 320px;
+    right: 0px;
+  }
+
+}
